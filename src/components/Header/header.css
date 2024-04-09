@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.header-text {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap: 57px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: black;
+}
