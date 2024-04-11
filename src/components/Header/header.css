@@ -1,7 +1,11 @@
 .header {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .header-text {
@@ -9,6 +13,10 @@
   align-items: center;
   font-size: 20px;
   gap: 57px;
+}
+
+.header-text :hover {
+  text-decoration: underline;
 }
 
 .header-link {

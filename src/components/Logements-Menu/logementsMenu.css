@@ -1,0 +1,15 @@
+.logements-Menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.grid-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding: 50px;
+  border-radius: 25px;
+  background-color: rgba(246, 246, 246, 1);
+}
