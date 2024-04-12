@@ -16,7 +16,7 @@ export function Banner1 () {
 export function Banner2 () {
   return (
     <div className='banner'>
-      <img className='banner-img' src={imageAboutbanner} alt="imageAboutBanner"/>
+      <img className='banner-img2' src={imageAboutbanner} alt="imageAboutBanner"/>
     </div>
   )
 }

@@ -11,11 +11,15 @@
 .header-text {
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 24px;
   gap: 57px;
 }
 
 .header-text :hover {
+  text-decoration: underline;
+}
+
+.header-link.active {
   text-decoration: underline;
 }
 

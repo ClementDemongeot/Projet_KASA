@@ -8,26 +8,27 @@ import Home from './pages/home/Home.jsx'
 import Logements from './pages/logements/Logements.jsx';
 import './main.css'
 import About from './pages/about/About.jsx';
+import Error404 from './pages/Error/Page404.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    errorElement: <div>Error404</div>,
+    errorElement: <Error404 />,
   },
   {
     path: "/about",
     element: <About />,
-    errorElement: <div>Error404</div>,
+    errorElement: <Error404 />,
   }
   ,
   {
     path: "/logements",
     element: <Logements />,
-    errorElement: <div>Error404</div>,
+    errorElement: <Error404 />,
   }
   
-  
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
