@@ -12,6 +12,7 @@ export default function LogementsMenu () {
             key={logement.id}
             title={logement.title}
             cover={logement.cover}
+            logementId={logement.id}
           />
           ))} 
       </div>

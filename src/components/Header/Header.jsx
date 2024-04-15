@@ -10,12 +10,14 @@ export default function Header () {
 
 
   return (
+    <div className='header-container'>
     <div className='header'>
       <img src={logoKasaRed} alt ="logoKasaRed"/>
       <div className='header-text'>
         <Link className={`header-link ${isAccueilPath? 'active' : ''}`} to="/">Accueil</Link>
         <Link className={`header-link ${isAProposPath? 'active' : ''}`} to="/about">A propos</Link>
       </div>
+    </div>
     </div>
   )
 }

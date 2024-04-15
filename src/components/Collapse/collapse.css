@@ -26,7 +26,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-left: Auto;
+  margin-right: auto;
   background-color: #f6f6f6;
   font-size: 18px;
   max-width: 1023px;

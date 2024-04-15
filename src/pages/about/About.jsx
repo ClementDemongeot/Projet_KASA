@@ -11,11 +11,13 @@ export default function About(){
     <>
     <Layout />
     <Banner2 />
+    <div className='about-container'>
     <div className="about-content">
     <Collapse title={titles.Fiabilité} content={descriptions.Fiabilité} />
         <Collapse title={titles.Respect} content={descriptions.Respect} />
         <Collapse title={titles.Service} content={descriptions.Service} />
         <Collapse title={titles.Sécurité} content={descriptions.Securité} />
+    </div>
     </div>
     <Footer />
     </>

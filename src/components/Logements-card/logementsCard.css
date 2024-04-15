@@ -21,8 +21,10 @@
   bottom: 0;
   left: 0;
   right: 0;
+  line-height: 25.67px;
   font-weight: 700;
   text-align: left;
   padding: 20px 20px;
   font-size: 18px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
