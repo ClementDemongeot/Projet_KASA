@@ -15,13 +15,12 @@ export default function Logements (){
   })
   
 
-  console.log(currentLogement)
-
+  
   return (
     <div>
       <Layout />
       {currentLogement.description}
-      
+
 
       <Footer />
     </div>
