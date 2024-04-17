@@ -5,7 +5,7 @@ import Home from "./pages/home/Home.jsx";
 import Logements from "./pages/logements/Logements.jsx";
 import "./main.css";
 import About from "./pages/about/About.jsx";
-import Error404 from "./pages/Error/Page404.jsx";
+import Error404 from "./pages/Error/page404.jsx";
 import LogementsData from "./assets/logements.json";
 
 const router = createBrowserRouter([
@@ -30,5 +30,5 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
+  </React.StrictMode>
 );
