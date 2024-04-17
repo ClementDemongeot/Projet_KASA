@@ -24,3 +24,5 @@ export function Collapse ({title,content}){
     </div>
   )
 }
+
+export default Collapse

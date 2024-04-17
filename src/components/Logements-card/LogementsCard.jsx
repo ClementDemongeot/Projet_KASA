@@ -11,7 +11,6 @@ export default function LogementsCard ({logementId, title, cover}) {
             <img src={cover} alt={title}/>
             <div className='card-content'>
               {title}
-              hello
             </div>
           </div>
       </div>

@@ -1,15 +1,14 @@
 .collapse {
+  display: flex;
+  flex-direction: column;
+  max-width: 1023px;
   width: 100%;
 }
 
 .collapse-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 52px;
-  max-width: 1023px;
+
   background-color: rgba(255, 96, 96, 1);
   border-radius: 5px;
 }
@@ -24,16 +23,11 @@
 
 .collapse-content {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: Auto;
-  margin-right: auto;
+  padding: 20px;
   background-color: #f6f6f6;
   font-size: 18px;
-  max-width: 1023px;
   text-align: left;
   border-radius: 5px;
-  animation: appearFromTop 0.5s ease forwards;
 }
 
 .collapse-arrow {
@@ -46,13 +40,4 @@
 .collapse-arrow.open {
   cursor: pointer;
   transform: rotate(180deg);
-}
-
-@keyframes appearFromTop {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
 }
