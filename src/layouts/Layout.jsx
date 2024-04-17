@@ -1,16 +1,10 @@
+import Header from "../components/Header/Header";
 
-import Header from '../components/Header/Header';
-
-
-
-
-export default function Layout({children}) {
+export default function Layout({ children }) {
   return (
     <>
-    
       <Header />
       {children}
-      
     </>
   );
 }
