@@ -19,3 +19,27 @@
   color: black;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 700px) {
+  .error404 > img {
+    width: 198px;
+  }
+
+  .error404 {
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 80px;
+    margin-bottom: 110px;
+    margin-top: 110px;
+  }
+
+  .error-texte {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .error-lien {
+    font-size: 14px;
+  }
+}
