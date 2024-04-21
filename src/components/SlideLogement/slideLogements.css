@@ -4,10 +4,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 415px;
 }
 .slide-images {
   object-fit: cover;
-  height: 415px;
+  height: 100%;
   width: 100%;
   border-radius: 25px;
 }
@@ -38,4 +39,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .slide-container {
+    height: 255px;
+  }
+
+  .arrow-left {
+    height: 24px;
+  }
+  .arrow-right {
+    height: 24px;
+  }
+
+  .slide-numbers {
+    display: none;
+  }
 }

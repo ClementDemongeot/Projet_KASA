@@ -1,8 +1,7 @@
 .logements-Menu {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px;
 }
 
 .grid-menu {
@@ -12,4 +11,26 @@
   padding: 50px;
   border-radius: 25px;
   background-color: rgba(246, 246, 246, 1);
+}
+
+@media screen and (max-width: 700px) {
+  .grid-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 20px;
+  }
+
+  .grid-menu > a {
+    height: 255px;
+  }
+
+  .logements-Menu {
+    margin: 20px;
+    margin-top: 25px;
+  }
+
+  .logements-card {
+    max-width: 1000px !important;
+  }
 }

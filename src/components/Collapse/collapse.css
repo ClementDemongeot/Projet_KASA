@@ -8,7 +8,7 @@
 .collapse-header {
   display: flex;
   justify-content: space-between;
-
+  width: 100%;
   background-color: rgba(255, 96, 96, 1);
   border-radius: 5px;
 }
@@ -42,4 +42,21 @@
 .collapse-arrow.open {
   cursor: pointer;
   transform: rotate(180deg);
+}
+
+@media screen and (max-width: 700px) {
+  .collapse-header {
+    height: 30px;
+  }
+  .collapse-title {
+    font-size: 15px;
+  }
+
+  .collapse-arrow > img {
+    width: 25px;
+  }
+
+  .collapse-arrow {
+    margin-top: 2px;
+  }
 }

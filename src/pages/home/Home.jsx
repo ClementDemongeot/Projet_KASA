@@ -12,7 +12,6 @@ export function Home() {
           <LogementsMenu />
         </main>
       </Layout>
-      <Footer />
     </>
   );
 }

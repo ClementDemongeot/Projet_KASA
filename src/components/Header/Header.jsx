@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <div className="header-container">
       <div className="header">
-        <img src={logoKasaRed} alt="logoKasaRed" />
+        <img className="header-logo" src={logoKasaRed} alt="logoKasaRed" />
         <div className="header-text">
           <Link
             className={`header-link ${isAccueilPath ? "active" : ""}`}
