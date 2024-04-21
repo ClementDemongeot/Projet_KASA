@@ -71,6 +71,7 @@
   display: flex;
   align-items: center;
   width: 167px;
+  margin-bottom: 10px;
 }
 .logement-owner-texte {
   color: rgba(255, 96, 96, 1);
@@ -122,6 +123,7 @@
   }
   .logement-owner {
     justify-content: flex-end;
+    margin-bottom: 0px;
   }
   .logement-owner-rating {
     flex-direction: row-reverse;
