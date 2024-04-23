@@ -7,6 +7,7 @@
 }
 
 .logement-content {
+  flex-grow: 1;
   gap: 20px;
   display: flex;
   flex-direction: column;

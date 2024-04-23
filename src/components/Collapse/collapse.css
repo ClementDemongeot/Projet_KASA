@@ -59,4 +59,7 @@
   .collapse-arrow {
     margin-top: 2px;
   }
+  .collapse-content {
+    font-size: 14px;
+  }
 }

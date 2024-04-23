@@ -6,7 +6,6 @@ import Logements from "./pages/logements/Logements.jsx";
 import "./main.css";
 import About from "./pages/about/About.jsx";
 import Error404 from "./pages/Error/page404.jsx";
-import LogementsData from "./assets/logements.json";
 
 const router = createBrowserRouter([
   {
