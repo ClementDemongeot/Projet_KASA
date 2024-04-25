@@ -2,8 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: calc(100vh - 350px);
 
-  margin: 50px;
+  padding: 50px;
+  padding-top: 0;
 }
 
 .logement-content {
@@ -111,7 +113,8 @@
 
 @media screen and (max-width: 700px) {
   .logement-container {
-    margin: 20px;
+    min-height: calc(100vh - 330px);
+    padding: 20px;
   }
 
   .logement-collapse {

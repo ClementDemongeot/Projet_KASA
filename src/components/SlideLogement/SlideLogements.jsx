@@ -8,13 +8,13 @@ export default function SlideLogement({ images }) {
 
   const nextSlide = function () {
     setCurrentImage((prevIndex) =>
-      prevIndex + 1 < images.length ? prevIndex + 1 : 0,
+      prevIndex + 1 < images.length ? prevIndex + 1 : 0
     );
   };
 
   const prevSlide = function () {
     setCurrentImage((prevIndex) =>
-      prevIndex - 1 >= 0 ? prevIndex - 1 : images.length - 1,
+      prevIndex - 1 >= 0 ? prevIndex - 1 : images.length - 1
     );
   };
 
