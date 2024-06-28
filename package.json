@@ -8,7 +8,8 @@
     "build": "vite build",
     "format": "prettier . --write",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite gh-pages"
   },
   "dependencies": {
     "prettier": "^3.2.5",
