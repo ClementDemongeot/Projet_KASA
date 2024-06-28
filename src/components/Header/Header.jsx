@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import logoKasaRed from "/src/assets/images/KASA_LOGO.png";
 import "./header.css";
+import { about, base } from "../../config/routes";
 
 export default function Header() {
   const { pathname } = useLocation();
@@ -14,13 +15,13 @@ export default function Header() {
         <div className="header-text">
           <Link
             className={`header-link ${isAccueilPath ? "active" : ""}`}
-            to="/"
+            to={base}
           >
             Accueil
           </Link>
           <Link
             className={`header-link ${isAProposPath ? "active" : ""}`}
-            to="/about"
+            to={about}
           >
             A propos
           </Link>

@@ -6,21 +6,22 @@ import Logements from "./pages/logements/Logements.jsx";
 import "./main.css";
 import About from "./pages/about/About.jsx";
 import Error404 from "./pages/Error/page404.jsx";
+import { about, base, logements } from "./config/routes.js";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: base,
     element: <Home />,
     errorElement: <Error404 />,
   },
   {
-    path: "/about",
+    path: about,
     element: <About />,
     errorElement: <Error404 />,
   },
 
   {
-    path: "/logements/:id",
+    path: `${logements}/:id`,
     element: <Logements />,
     errorElement: <Error404 />,
   },
